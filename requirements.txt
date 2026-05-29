@@ -1,0 +1,7 @@
+selenium
+pandas
+matplotlib
+python-dateutil
+plyer
+pywin32
+openpyxl
