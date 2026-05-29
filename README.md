@@ -179,7 +179,6 @@ python gdam_market_automation.py
 
 * Power BI integration
 * Cloud deployment
-* Automated scheduling using Task Scheduler / Airflow
 * Historical trend dashboard
 * AI-based market trend forecasting
 * Database integration
