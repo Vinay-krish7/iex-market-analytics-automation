@@ -1,0 +1,727 @@
+2026-05-12 12:37:08,305-INFO-Opening URL...
+2026-05-12 12:37:11,486-INFO-URL opened.
+2026-05-12 12:37:12,487-INFO-Locating INTERVAL dropdown...
+2026-05-12 12:37:13,896-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-12 12:37:44,205-ERROR-Script failed with error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7eb1ed685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7eb1ed6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7eaf3d59d]
+	chromedriver!(No symbol) [0x7ff7eaf96f42]
+	chromedriver!(No symbol) [0x7ff7eaf9724c]
+	chromedriver!(No symbol) [0x7ff7eafe7967]
+	chromedriver!(No symbol) [0x7ff7eafe44ff]
+	chromedriver!(No symbol) [0x7ff7eaf89608]
+	chromedriver!(No symbol) [0x7ff7eaf8a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7eb4eb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7eb4e5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7eb508fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7eb20a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7eb212e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7eb1f6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7eb1f6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7eb1db2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffac17be8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 73, in <module>
+  File "selenium\webdriver\support\wait.py", line 146, in until
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7eb1ed685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7eb1ed6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7eaf3d59d]
+	chromedriver!(No symbol) [0x7ff7eaf96f42]
+	chromedriver!(No symbol) [0x7ff7eaf9724c]
+	chromedriver!(No symbol) [0x7ff7eafe7967]
+	chromedriver!(No symbol) [0x7ff7eafe44ff]
+	chromedriver!(No symbol) [0x7ff7eaf89608]
+	chromedriver!(No symbol) [0x7ff7eaf8a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7eb4eb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7eb4e5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7eb508fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7eb20a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7eb212e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7eb1f6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7eb1f6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7eb1db2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffac17be8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-13 11:01:34,703-INFO-Opening URL...
+2026-05-13 11:01:35,852-INFO-URL opened.
+2026-05-13 11:01:36,855-INFO-Locating INTERVAL dropdown...
+2026-05-13 11:01:39,345-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-13 11:01:39,661-INFO-'Hourly' selected.
+2026-05-13 11:01:39,661-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-13 11:01:40,146-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-13 11:01:40,186-INFO-Today selected.
+2026-05-13 11:01:40,555-INFO-Waiting for Update Report button...
+2026-05-13 11:01:41,643-INFO-Clicking Update Report button...
+2026-05-13 11:01:45,539-INFO-Table loaded.
+2026-05-13 11:01:49,888-INFO-Data extraction complete.
+2026-05-13 11:01:50,200-INFO-CSV saved
+2026-05-13 11:01:55,692-INFO-Plt saved
+2026-05-13 11:02:01,797-INFO-Mail sent!
+2026-05-14 11:01:24,426-INFO-Opening URL...
+2026-05-14 11:01:26,871-INFO-URL opened.
+2026-05-14 11:01:27,872-INFO-Locating INTERVAL dropdown...
+2026-05-14 11:01:28,981-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-14 11:01:29,129-INFO-'Hourly' selected.
+2026-05-14 11:01:29,129-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-14 11:01:29,475-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-14 11:01:29,505-INFO-Today selected.
+2026-05-14 11:01:29,633-INFO-Waiting for Update Report button...
+2026-05-14 11:01:30,672-INFO-Clicking Update Report button...
+2026-05-14 11:01:34,301-INFO-Table loaded.
+2026-05-14 11:01:35,457-INFO-Data extraction complete.
+2026-05-14 11:01:35,515-INFO-CSV saved
+2026-05-14 11:01:37,981-INFO-Plt saved
+2026-05-14 11:01:41,641-INFO-Mail sent!
+2026-05-15 11:01:24,656-INFO-Opening URL...
+2026-05-15 11:01:26,800-INFO-URL opened.
+2026-05-15 11:01:27,802-INFO-Locating INTERVAL dropdown...
+2026-05-15 11:01:29,160-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-15 11:01:29,411-INFO-'Hourly' selected.
+2026-05-15 11:01:29,412-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-15 11:01:29,839-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-15 11:01:29,860-INFO-Today selected.
+2026-05-15 11:01:30,062-INFO-Waiting for Update Report button...
+2026-05-15 11:01:31,117-INFO-Clicking Update Report button...
+2026-05-15 11:01:34,860-INFO-Table loaded.
+2026-05-15 11:01:37,716-INFO-Data extraction complete.
+2026-05-15 11:01:37,969-INFO-CSV saved
+2026-05-15 11:01:41,873-INFO-Plt saved
+2026-05-15 11:01:52,796-INFO-Mail sent!
+2026-05-17 21:05:38,979-INFO-Opening URL...
+2026-05-17 21:05:42,214-INFO-URL opened.
+2026-05-17 21:05:43,216-INFO-Locating INTERVAL dropdown...
+2026-05-17 21:05:44,722-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-17 21:05:45,033-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff698abd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff698abd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff69880d59d]
+	chromedriver!(No symbol) [0x7ff698815511]
+	chromedriver!(No symbol) [0x7ff69881896f]
+	chromedriver!(No symbol) [0x7ff6988b58cd]
+	chromedriver!(No symbol) [0x7ff69888f76a]
+	chromedriver!(No symbol) [0x7ff6988b44ff]
+	chromedriver!(No symbol) [0x7ff698859608]
+	chromedriver!(No symbol) [0x7ff69885a4f3]
+	chromedriver!GetHandleVerifier [0x7ff698dbb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff698db5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff698dd8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff698ada435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff698ae2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff698ac6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff698ac6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff698aab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 77, in <module>
+  File "selenium\webdriver\remote\webdriver.py", line 547, in execute_script
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff698abd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff698abd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff69880d59d]
+	chromedriver!(No symbol) [0x7ff698815511]
+	chromedriver!(No symbol) [0x7ff69881896f]
+	chromedriver!(No symbol) [0x7ff6988b58cd]
+	chromedriver!(No symbol) [0x7ff69888f76a]
+	chromedriver!(No symbol) [0x7ff6988b44ff]
+	chromedriver!(No symbol) [0x7ff698859608]
+	chromedriver!(No symbol) [0x7ff69885a4f3]
+	chromedriver!GetHandleVerifier [0x7ff698dbb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff698db5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff698dd8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff698ada435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff698ae2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff698ac6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff698ac6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff698aab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-17 21:09:54,736-INFO-Opening URL...
+2026-05-17 21:09:58,270-INFO-URL opened.
+2026-05-17 21:09:59,272-INFO-Locating INTERVAL dropdown...
+2026-05-17 21:10:01,385-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-17 21:10:01,691-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff698abd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff698abd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff69880d59d]
+	chromedriver!(No symbol) [0x7ff698815511]
+	chromedriver!(No symbol) [0x7ff6988185d5]
+	chromedriver!(No symbol) [0x7ff69881869f]
+	chromedriver!(No symbol) [0x7ff698869200]
+	chromedriver!(No symbol) [0x7ff698868180]
+	chromedriver!(No symbol) [0x7ff69885b8fa]
+	chromedriver!(No symbol) [0x7ff69888f76a]
+	chromedriver!(No symbol) [0x7ff69885ad76]
+	chromedriver!(No symbol) [0x7ff6988b44ff]
+	chromedriver!(No symbol) [0x7ff698859608]
+	chromedriver!(No symbol) [0x7ff69885a4f3]
+	chromedriver!GetHandleVerifier [0x7ff698dbb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff698db5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff698dd8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff698ada435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff698ae2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff698ac6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff698ac6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff698aab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 78, in <module>
+  File "selenium\webdriver\remote\webelement.py", line 119, in click
+  File "selenium\webdriver\remote\webelement.py", line 572, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff698abd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff698abd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff69880d59d]
+	chromedriver!(No symbol) [0x7ff698815511]
+	chromedriver!(No symbol) [0x7ff6988185d5]
+	chromedriver!(No symbol) [0x7ff69881869f]
+	chromedriver!(No symbol) [0x7ff698869200]
+	chromedriver!(No symbol) [0x7ff698868180]
+	chromedriver!(No symbol) [0x7ff69885b8fa]
+	chromedriver!(No symbol) [0x7ff69888f76a]
+	chromedriver!(No symbol) [0x7ff69885ad76]
+	chromedriver!(No symbol) [0x7ff6988b44ff]
+	chromedriver!(No symbol) [0x7ff698859608]
+	chromedriver!(No symbol) [0x7ff69885a4f3]
+	chromedriver!GetHandleVerifier [0x7ff698dbb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff698db5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff698dd8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff698ada435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff698ae2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff698ac6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff698ac6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff698aab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-18 11:01:31,789-INFO-Opening URL...
+2026-05-18 11:01:34,590-INFO-URL opened.
+2026-05-18 11:01:35,591-INFO-Locating INTERVAL dropdown...
+2026-05-18 11:01:37,194-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-18 11:01:37,403-INFO-'Hourly' selected.
+2026-05-18 11:01:37,404-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-18 11:01:37,866-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-18 11:01:37,899-INFO-Today selected.
+2026-05-18 11:01:38,112-INFO-Waiting for Update Report button...
+2026-05-18 11:01:39,172-INFO-Clicking Update Report button...
+2026-05-18 11:01:42,899-INFO-Table loaded.
+2026-05-18 11:01:45,360-INFO-Data extraction complete.
+2026-05-18 11:01:45,522-INFO-CSV saved
+2026-05-18 11:01:48,499-INFO-Plt saved
+2026-05-18 11:01:52,029-INFO-Mail sent!
+2026-05-19 10:27:22,840-INFO-Opening URL...
+2026-05-19 10:27:24,942-INFO-URL opened.
+2026-05-19 10:27:25,944-INFO-Locating INTERVAL dropdown...
+2026-05-19 10:27:27,413-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-19 10:27:27,788-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d0d6d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7d0d6d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7d0abd59d]
+	chromedriver!(No symbol) [0x7ff7d0ac5511]
+	chromedriver!(No symbol) [0x7ff7d0ac85d5]
+	chromedriver!(No symbol) [0x7ff7d0ac869f]
+	chromedriver!(No symbol) [0x7ff7d0b1bd51]
+	chromedriver!(No symbol) [0x7ff7d0b19a27]
+	chromedriver!(No symbol) [0x7ff7d0b188d7]
+	chromedriver!(No symbol) [0x7ff7d0b0b8fa]
+	chromedriver!(No symbol) [0x7ff7d0b3f76a]
+	chromedriver!(No symbol) [0x7ff7d0b0ad76]
+	chromedriver!(No symbol) [0x7ff7d0b644ff]
+	chromedriver!(No symbol) [0x7ff7d0b09608]
+	chromedriver!(No symbol) [0x7ff7d0b0a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7d106b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7d1065c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7d1088fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7d0d8a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7d0d92e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7d0d76a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7d0d76bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7d0d5b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 78, in <module>
+  File "selenium\webdriver\remote\webelement.py", line 119, in click
+  File "selenium\webdriver\remote\webelement.py", line 572, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7d0d6d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7d0d6d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7d0abd59d]
+	chromedriver!(No symbol) [0x7ff7d0ac5511]
+	chromedriver!(No symbol) [0x7ff7d0ac85d5]
+	chromedriver!(No symbol) [0x7ff7d0ac869f]
+	chromedriver!(No symbol) [0x7ff7d0b1bd51]
+	chromedriver!(No symbol) [0x7ff7d0b19a27]
+	chromedriver!(No symbol) [0x7ff7d0b188d7]
+	chromedriver!(No symbol) [0x7ff7d0b0b8fa]
+	chromedriver!(No symbol) [0x7ff7d0b3f76a]
+	chromedriver!(No symbol) [0x7ff7d0b0ad76]
+	chromedriver!(No symbol) [0x7ff7d0b644ff]
+	chromedriver!(No symbol) [0x7ff7d0b09608]
+	chromedriver!(No symbol) [0x7ff7d0b0a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7d106b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7d1065c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7d1088fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7d0d8a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7d0d92e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7d0d76a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7d0d76bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7d0d5b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-19 11:01:54,380-INFO-Opening URL...
+2026-05-19 11:01:56,302-INFO-URL opened.
+2026-05-19 11:01:57,304-INFO-Locating INTERVAL dropdown...
+2026-05-19 11:01:58,710-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-19 11:01:59,236-INFO-'Hourly' selected.
+2026-05-19 11:01:59,237-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-19 11:01:59,805-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-19 11:01:59,849-INFO-Today selected.
+2026-05-19 11:02:00,273-INFO-Waiting for Update Report button...
+2026-05-19 11:02:01,907-INFO-Clicking Update Report button...
+2026-05-19 11:02:09,489-INFO-Table loaded.
+2026-05-19 11:02:14,792-INFO-Data extraction complete.
+2026-05-19 11:02:15,388-INFO-CSV saved
+2026-05-19 11:02:21,605-INFO-Plt saved
+2026-05-19 11:02:24,861-INFO-Mail sent!
+2026-05-20 10:28:33,089-INFO-Opening URL...
+2026-05-20 10:28:35,387-INFO-URL opened.
+2026-05-20 10:28:36,393-INFO-Locating INTERVAL dropdown...
+2026-05-20 10:28:37,862-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-20 10:28:38,195-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7e33bd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7e33bd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7e310d59d]
+	chromedriver!(No symbol) [0x7ff7e3115511]
+	chromedriver!(No symbol) [0x7ff7e31185d5]
+	chromedriver!(No symbol) [0x7ff7e311869f]
+	chromedriver!(No symbol) [0x7ff7e316e7ea]
+	chromedriver!(No symbol) [0x7ff7e316c0f1]
+	chromedriver!(No symbol) [0x7ff7e3169a27]
+	chromedriver!(No symbol) [0x7ff7e31688d7]
+	chromedriver!(No symbol) [0x7ff7e315b4f6]
+	chromedriver!(No symbol) [0x7ff7e318f76a]
+	chromedriver!(No symbol) [0x7ff7e315ad76]
+	chromedriver!(No symbol) [0x7ff7e31b44ff]
+	chromedriver!(No symbol) [0x7ff7e3159608]
+	chromedriver!(No symbol) [0x7ff7e315a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7e36bb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7e36b5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7e36d8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7e33da435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7e33e2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7e33c6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7e33c6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7e33ab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 78, in <module>
+  File "selenium\webdriver\remote\webelement.py", line 119, in click
+  File "selenium\webdriver\remote\webelement.py", line 572, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7e33bd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7e33bd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7e310d59d]
+	chromedriver!(No symbol) [0x7ff7e3115511]
+	chromedriver!(No symbol) [0x7ff7e31185d5]
+	chromedriver!(No symbol) [0x7ff7e311869f]
+	chromedriver!(No symbol) [0x7ff7e316e7ea]
+	chromedriver!(No symbol) [0x7ff7e316c0f1]
+	chromedriver!(No symbol) [0x7ff7e3169a27]
+	chromedriver!(No symbol) [0x7ff7e31688d7]
+	chromedriver!(No symbol) [0x7ff7e315b4f6]
+	chromedriver!(No symbol) [0x7ff7e318f76a]
+	chromedriver!(No symbol) [0x7ff7e315ad76]
+	chromedriver!(No symbol) [0x7ff7e31b44ff]
+	chromedriver!(No symbol) [0x7ff7e3159608]
+	chromedriver!(No symbol) [0x7ff7e315a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7e36bb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7e36b5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7e36d8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7e33da435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7e33e2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7e33c6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7e33c6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7e33ab2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-20 11:01:32,933-INFO-Opening URL...
+2026-05-20 11:01:34,906-INFO-URL opened.
+2026-05-20 11:01:35,908-INFO-Locating INTERVAL dropdown...
+2026-05-20 11:01:37,120-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-20 11:01:37,434-INFO-'Hourly' selected.
+2026-05-20 11:01:37,434-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-20 11:01:37,909-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-20 11:01:37,927-INFO-Today selected.
+2026-05-20 11:01:38,141-INFO-Waiting for Update Report button...
+2026-05-20 11:01:39,192-INFO-Clicking Update Report button...
+2026-05-20 11:01:42,906-INFO-Table loaded.
+2026-05-20 11:01:45,493-INFO-Data extraction complete.
+2026-05-20 11:01:46,297-INFO-CSV saved
+2026-05-20 11:01:49,716-INFO-Plt saved
+2026-05-20 11:01:52,857-INFO-Mail sent!
+2026-05-21 10:15:42,996-INFO-Opening URL...
+2026-05-21 10:15:46,314-INFO-URL opened.
+2026-05-21 10:15:47,315-INFO-Locating INTERVAL dropdown...
+2026-05-21 10:15:48,669-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-21 10:15:48,880-INFO-'Hourly' selected.
+2026-05-21 10:15:48,880-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-21 10:15:49,247-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-21 10:15:49,262-INFO-Today selected.
+2026-05-21 10:15:49,396-INFO-Waiting for Update Report button...
+2026-05-21 10:15:50,444-INFO-Clicking Update Report button...
+2026-05-21 10:15:54,102-INFO-Table loaded.
+2026-05-21 10:15:56,244-INFO-Data extraction complete.
+2026-05-21 10:15:56,558-INFO-CSV saved
+2026-05-21 10:15:59,224-INFO-Plt saved
+2026-05-21 10:16:01,220-INFO-Mail sent!
+2026-05-21 11:01:35,048-INFO-Opening URL...
+2026-05-21 11:01:40,331-INFO-URL opened.
+2026-05-21 11:01:41,333-INFO-Locating INTERVAL dropdown...
+2026-05-21 11:01:42,743-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-21 11:01:43,237-INFO-'Hourly' selected.
+2026-05-21 11:01:43,238-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-21 11:01:43,741-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-21 11:01:43,783-INFO-Today selected.
+2026-05-21 11:01:44,169-INFO-Waiting for Update Report button...
+2026-05-21 11:01:45,286-INFO-Clicking Update Report button...
+2026-05-21 11:01:49,163-INFO-Table loaded.
+2026-05-21 11:01:54,320-INFO-Data extraction complete.
+2026-05-21 11:01:54,757-INFO-CSV saved
+2026-05-21 11:01:58,578-INFO-Plt saved
+2026-05-21 11:02:00,287-INFO-Mail sent!
+2026-05-21 22:32:35,038-INFO-Opening URL...
+2026-05-21 22:32:37,652-INFO-URL opened.
+2026-05-21 22:32:38,653-INFO-Locating INTERVAL dropdown...
+2026-05-21 22:32:39,793-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-21 22:32:40,008-INFO-'Hourly' selected.
+2026-05-21 22:32:40,008-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-21 22:32:40,411-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-21 22:32:40,430-INFO-Today selected.
+2026-05-21 22:32:40,593-INFO-Waiting for Update Report button...
+2026-05-21 22:32:41,641-INFO-Clicking Update Report button...
+2026-05-21 22:32:45,268-INFO-Table loaded.
+2026-05-21 22:32:47,230-INFO-Data extraction complete.
+2026-05-21 22:32:47,354-INFO-CSV saved
+2026-05-21 22:32:49,899-INFO-Plt saved
+2026-05-21 22:32:53,376-INFO-Mail sent!
+2026-05-22 11:01:43,815-INFO-Opening URL...
+2026-05-22 11:01:45,679-INFO-URL opened.
+2026-05-22 11:01:46,683-INFO-Locating INTERVAL dropdown...
+2026-05-22 11:01:48,107-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-22 11:01:48,593-INFO-'Hourly' selected.
+2026-05-22 11:01:48,595-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-22 11:01:49,079-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-22 11:01:49,119-INFO-Today selected.
+2026-05-22 11:01:49,492-INFO-Waiting for Update Report button...
+2026-05-22 11:01:50,589-INFO-Clicking Update Report button...
+2026-05-22 11:01:54,473-INFO-Table loaded.
+2026-05-22 11:01:59,796-INFO-Data extraction complete.
+2026-05-22 11:02:00,136-INFO-CSV saved
+2026-05-22 11:02:04,740-INFO-Plt saved
+2026-05-22 11:02:07,594-INFO-Mail sent!
+2026-05-24 19:07:08,890-INFO-Opening URL...
+2026-05-24 19:07:12,654-INFO-URL opened.
+2026-05-24 19:07:13,657-INFO-Locating INTERVAL dropdown...
+2026-05-24 19:07:15,213-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-24 19:07:15,599-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f265d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7f265d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7f23ad59d]
+	chromedriver!(No symbol) [0x7ff7f23b5511]
+	chromedriver!(No symbol) [0x7ff7f23b85d5]
+	chromedriver!(No symbol) [0x7ff7f23b869f]
+	chromedriver!(No symbol) [0x7ff7f2409200]
+	chromedriver!(No symbol) [0x7ff7f23fb45f]
+	chromedriver!(No symbol) [0x7ff7f242f76a]
+	chromedriver!(No symbol) [0x7ff7f23fad76]
+	chromedriver!(No symbol) [0x7ff7f24544ff]
+	chromedriver!(No symbol) [0x7ff7f23f9608]
+	chromedriver!(No symbol) [0x7ff7f23fa4f3]
+	chromedriver!GetHandleVerifier [0x7ff7f295b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7f2955c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7f2978fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7f267a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7f2682e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7f2666a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7f2666bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7f264b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 78, in <module>
+  File "selenium\webdriver\remote\webelement.py", line 119, in click
+  File "selenium\webdriver\remote\webelement.py", line 572, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f265d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7f265d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7f23ad59d]
+	chromedriver!(No symbol) [0x7ff7f23b5511]
+	chromedriver!(No symbol) [0x7ff7f23b85d5]
+	chromedriver!(No symbol) [0x7ff7f23b869f]
+	chromedriver!(No symbol) [0x7ff7f2409200]
+	chromedriver!(No symbol) [0x7ff7f23fb45f]
+	chromedriver!(No symbol) [0x7ff7f242f76a]
+	chromedriver!(No symbol) [0x7ff7f23fad76]
+	chromedriver!(No symbol) [0x7ff7f24544ff]
+	chromedriver!(No symbol) [0x7ff7f23f9608]
+	chromedriver!(No symbol) [0x7ff7f23fa4f3]
+	chromedriver!GetHandleVerifier [0x7ff7f295b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7f2955c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7f2978fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7f267a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7f2682e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7f2666a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7f2666bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7f264b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-24 19:11:13,229-INFO-Opening URL...
+2026-05-24 19:11:18,331-INFO-URL opened.
+2026-05-24 19:11:19,357-INFO-Locating INTERVAL dropdown...
+2026-05-24 19:11:21,256-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-24 19:11:21,711-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f265d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7f265d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7f23ad59d]
+	chromedriver!(No symbol) [0x7ff7f23b5511]
+	chromedriver!(No symbol) [0x7ff7f23b85d5]
+	chromedriver!(No symbol) [0x7ff7f23b869f]
+	chromedriver!(No symbol) [0x7ff7f2409200]
+	chromedriver!(No symbol) [0x7ff7f23fb45f]
+	chromedriver!(No symbol) [0x7ff7f242f76a]
+	chromedriver!(No symbol) [0x7ff7f23fad76]
+	chromedriver!(No symbol) [0x7ff7f24544ff]
+	chromedriver!(No symbol) [0x7ff7f23f9608]
+	chromedriver!(No symbol) [0x7ff7f23fa4f3]
+	chromedriver!GetHandleVerifier [0x7ff7f295b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7f2955c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7f2978fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7f267a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7f2682e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7f2666a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7f2666bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7f264b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 78, in <module>
+  File "selenium\webdriver\remote\webelement.py", line 119, in click
+  File "selenium\webdriver\remote\webelement.py", line 572, in _execute
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f265d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7f265d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7f23ad59d]
+	chromedriver!(No symbol) [0x7ff7f23b5511]
+	chromedriver!(No symbol) [0x7ff7f23b85d5]
+	chromedriver!(No symbol) [0x7ff7f23b869f]
+	chromedriver!(No symbol) [0x7ff7f2409200]
+	chromedriver!(No symbol) [0x7ff7f23fb45f]
+	chromedriver!(No symbol) [0x7ff7f242f76a]
+	chromedriver!(No symbol) [0x7ff7f23fad76]
+	chromedriver!(No symbol) [0x7ff7f24544ff]
+	chromedriver!(No symbol) [0x7ff7f23f9608]
+	chromedriver!(No symbol) [0x7ff7f23fa4f3]
+	chromedriver!GetHandleVerifier [0x7ff7f295b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7f2955c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7f2978fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7f267a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7f2682e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7f2666a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7f2666bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7f264b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
+2026-05-26 10:22:51,326-INFO-Opening URL...
+2026-05-26 10:22:55,626-INFO-URL opened.
+2026-05-26 10:22:56,627-INFO-Locating INTERVAL dropdown...
+2026-05-26 10:22:57,843-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-26 10:22:58,131-INFO-'Hourly' selected.
+2026-05-26 10:22:58,133-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-26 10:22:58,532-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-26 10:22:58,554-INFO-Today selected.
+2026-05-26 10:22:58,760-INFO-Waiting for Update Report button...
+2026-05-26 10:22:59,814-INFO-Clicking Update Report button...
+2026-05-26 10:23:03,616-INFO-Table loaded.
+2026-05-26 10:23:06,349-INFO-Data extraction complete.
+2026-05-26 10:23:06,470-INFO-CSV saved
+2026-05-26 10:23:09,831-INFO-Plt saved
+2026-05-26 10:23:12,870-INFO-Mail sent!
+2026-05-26 11:01:24,616-INFO-Opening URL...
+2026-05-26 11:01:27,786-INFO-URL opened.
+2026-05-26 11:01:28,787-INFO-Locating INTERVAL dropdown...
+2026-05-26 11:01:29,916-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-26 11:01:30,077-INFO-'Hourly' selected.
+2026-05-26 11:01:30,078-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-26 11:01:30,481-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-26 11:01:30,497-INFO-Today selected.
+2026-05-26 11:01:30,588-INFO-Waiting for Update Report button...
+2026-05-26 11:01:31,625-INFO-Clicking Update Report button...
+2026-05-26 11:01:35,285-INFO-Table loaded.
+2026-05-26 11:01:36,986-INFO-Data extraction complete.
+2026-05-26 11:01:37,165-INFO-CSV saved
+2026-05-26 11:01:42,377-INFO-Plt saved
+2026-05-26 11:01:43,815-INFO-Mail sent!
+2026-05-27 10:47:36,008-INFO-Opening URL...
+2026-05-27 10:47:39,930-INFO-URL opened.
+2026-05-27 10:47:40,931-INFO-Locating INTERVAL dropdown...
+2026-05-27 10:47:42,363-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-27 10:47:42,638-INFO-'Hourly' selected.
+2026-05-27 10:47:42,639-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-27 10:47:43,000-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-27 10:47:43,015-INFO-Today selected.
+2026-05-27 10:47:43,162-INFO-Waiting for Update Report button...
+2026-05-27 10:47:44,197-INFO-Clicking Update Report button...
+2026-05-27 10:47:47,841-INFO-Table loaded.
+2026-05-27 10:47:49,878-INFO-Data extraction complete.
+2026-05-27 10:47:50,082-INFO-CSV saved
+2026-05-27 10:47:53,137-INFO-Plt saved
+2026-05-27 10:47:54,835-INFO-Mail sent!
+2026-05-27 11:01:23,972-INFO-Opening URL...
+2026-05-27 11:01:27,341-INFO-URL opened.
+2026-05-27 11:01:28,343-INFO-Locating INTERVAL dropdown...
+2026-05-27 11:01:29,608-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-27 11:01:29,827-INFO-'Hourly' selected.
+2026-05-27 11:01:29,828-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-27 11:01:30,239-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-27 11:01:30,263-INFO-Today selected.
+2026-05-27 11:01:30,420-INFO-Waiting for Update Report button...
+2026-05-27 11:01:31,473-INFO-Clicking Update Report button...
+2026-05-27 11:01:35,180-INFO-Table loaded.
+2026-05-27 11:01:37,236-INFO-Data extraction complete.
+2026-05-27 11:01:37,354-INFO-CSV saved
+2026-05-27 11:01:40,364-INFO-Plt saved
+2026-05-27 11:01:41,694-INFO-Mail sent!
+2026-05-28 11:01:32,989-INFO-Opening URL...
+2026-05-28 11:01:37,388-INFO-URL opened.
+2026-05-28 11:01:38,392-INFO-Locating INTERVAL dropdown...
+2026-05-28 11:01:39,655-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-28 11:01:39,895-INFO-'Hourly' selected.
+2026-05-28 11:01:39,895-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-28 11:01:40,293-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-28 11:01:40,312-INFO-Today selected.
+2026-05-28 11:01:40,488-INFO-Waiting for Update Report button...
+2026-05-28 11:01:41,562-INFO-Clicking Update Report button...
+2026-05-28 11:01:45,288-INFO-Table loaded.
+2026-05-28 11:01:45,780-INFO-Data extraction complete.
+2026-05-28 11:01:46,359-INFO-CSV saved
+2026-05-29 11:01:34,490-INFO-Opening URL...
+2026-05-29 11:01:42,462-INFO-URL opened.
+2026-05-29 11:01:43,465-INFO-Locating INTERVAL dropdown...
+2026-05-29 11:01:44,832-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-29 11:01:45,377-INFO-'Hourly' selected.
+2026-05-29 11:01:45,378-INFO-Locating DELIVERY PERIOD dropdown...
+2026-05-29 11:01:45,709-INFO-DELIVERY PERIOD dropdown found. Selecting 'Today'...
+2026-05-29 11:01:45,749-INFO-Today selected.
+2026-05-29 11:01:46,101-INFO-Waiting for Update Report button...
+2026-05-29 11:01:47,185-INFO-Clicking Update Report button...
+2026-05-29 11:01:51,036-INFO-Table loaded.
+2026-05-29 11:01:56,008-INFO-Data extraction complete.
+2026-05-29 11:01:56,385-INFO-CSV saved
+2026-05-29 11:02:00,650-INFO-Plt saved
+2026-05-29 11:02:04,304-INFO-Mail sent!
+2026-05-30 16:07:28,309-INFO-Opening URL...
+2026-05-30 16:07:37,720-INFO-URL opened.
+2026-05-30 16:07:38,737-INFO-Locating INTERVAL dropdown...
+2026-05-30 16:07:41,364-INFO-INTERVAL dropdown found. Selecting 'HOURLY'...
+2026-05-30 16:07:41,751-ERROR-Script failed with error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7be87d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7be87d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7be5cd59d]
+	chromedriver!(No symbol) [0x7ff7be5d5511]
+	chromedriver!(No symbol) [0x7ff7be5d896f]
+	chromedriver!(No symbol) [0x7ff7be6758cd]
+	chromedriver!(No symbol) [0x7ff7be64f76a]
+	chromedriver!(No symbol) [0x7ff7be6744ff]
+	chromedriver!(No symbol) [0x7ff7be619608]
+	chromedriver!(No symbol) [0x7ff7be61a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7beb7b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7beb75c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7beb98fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7be89a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7be8a2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7be886a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7be886bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7be86b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+Traceback (most recent call last):
+  File "dam_mail_trigger.py", line 77, in <module>
+  File "selenium\webdriver\remote\webdriver.py", line 547, in execute_script
+  File "selenium\webdriver\remote\webdriver.py", line 448, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7be87d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7be87d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff7be5cd59d]
+	chromedriver!(No symbol) [0x7ff7be5d5511]
+	chromedriver!(No symbol) [0x7ff7be5d896f]
+	chromedriver!(No symbol) [0x7ff7be6758cd]
+	chromedriver!(No symbol) [0x7ff7be64f76a]
+	chromedriver!(No symbol) [0x7ff7be6744ff]
+	chromedriver!(No symbol) [0x7ff7be619608]
+	chromedriver!(No symbol) [0x7ff7be61a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7beb7b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7beb75c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7beb98fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7be89a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7be8a2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7be886a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7be886bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7be86b2d7+2b47]
+	KERNEL32!(No symbol) [0x7ffac17be8d7]
+	ntdll!RtlUserThreadStart [0x7ffac292c3fc+2c]
+
